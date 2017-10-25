@@ -1,18 +1,32 @@
 body {
     padding-top: 50px;
+    font-size: 2em;
 }
 .starter-template {
     padding: 40px 15px;
     text-align: center;
 }
 .circle-image-cropper{
-    width: 100px;
-    height: 100px;
-    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
     border-radius: 50%;
 }
 .cropped-circle-image{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+}
+.header-block{
+    justify-content: center;
+    align-items: center;
+}
+.cakebot-thumbnail{
+    height: 8em;
+    width: 8em;
+}
+.hfid-thumbnail{
+    height:6em;
+    width: 11em;
 }
